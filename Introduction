@@ -1,26 +1,61 @@
-Mr. Code Stark went on a space mission and landed on Planet X which uses a different number system.
-Instead of having the least significant digit on the extreme right, they have the least significant digit on the extreme left.
-So, 321 on our planet is 123 on the Planet X.
-
-Mr. Code Stark wanted to find numbers that are same on both the planet Earth and Planet X. Help him find such numbers.
-
-INPUT FORMAT:
-One line containing the integer
-OUTPUT FORMAT:
-True - If the number is same on Planet X.
-False - If the number is different on Planet X
-CONSTRAINTS:
-1 <= NUMBER <= 10^19
-Sample Input-1:
-123
-Sample Output-1:
-False
-Explanation:
-On Planet X, the number 123 will be written as 321 so the output is False
-
-Sample Input-2:
-121
-Sample Output-2:
-True
-Explanation:
-On Planet X, the number 121 will be written as 121 so the output is True
+Competitive programming has two major parts
+The design of algorithms
+The implementation of algorithms.
+The design of algorithms consists of problem-solving and mathematical thinking. Skills for understanding and analyzing problems and solving them creatively are needed. An algorithm for solving a problem has to be both correct and efficient, and the core of the problem is often about inventing an efficient algorithm. Theoretical knowledge of algorithms and their applications is very important to competitive programmers.
+The implementation of algorithms requires good program writing skills. In competitive programming, the solutions are graded by testing an implemented algorithm using a set of test cases. A good coding style in contests is straightforward and concise. Emphasis should be given to improving the ability to write the code quickly. Usually, the programs are short up to a few hundred of lines of code)
+Programming is a problem solving activity. If you are a good problem solver, you have the potential to become a good programmer.
+Software development involves many stages. Each stage has different functionality and outcome. These stages form the Software Development Life Cycle, which is popularly known as SDLC.
+The most popular programming languages used in contests are C++, Python, and Java.
+Many people think that C++ is the best choice for a competitive programmer. The benefits of using C++ are that it is a very efficient language and its standard library contains a large collection of data structures and algorithms.
+A very important skill for a competitive programmer is to master several languages and understand their strengths. This will allow them to choose a more appropriate programming language for a given code.
+For example, if large integers are needed in the problem, Python can be a good choice, because it contains built-in operations for calculating with large integers.
+In this course, we will share with you some tips and tricks in all the programming languages. If you are an expert in only one language, you can ignore the tips related to other programming languages.
+1. Understanding the Problem:
+It is the process of finding the input of the problem that the algorithm solves.
+It is very important to specify exactly the set of inputs the algorithm needs to handle and work correctly for all possible inputs.
+2. Ascertaining the Capabilities of the Computational Device:
+If the instructions are executed one after another, it is called sequential algorithm.
+If the instructions are executed concurrently, it is called parallel algorithm.
+3. Choosing between Exact and Approximate Problem Solving:
+The next principal decision is to choose between solving the problem exactly or solving it approximately.
+Based on this, the algorithms are classified as exact algorithm and approximation algorithm.
+4. Deciding a data structure:
+Data structure plays a vital role in designing and analysis of the algorithms.
+Algorithm + Data structure = programs.
+5. Algorithm Design Techniques:
+An algorithm design technique (or “strategy” or “paradigm”) is a general approach to solving problems concerning different areas of computing.
+Learning these techniques is of utmost importance for the following reasons.
+First, they provide guidance for designing algorithms for new problems,
+Second, algorithms are the cornerstone of computer science
+6. Methods of Specifying an Algorithm:
+Pseudo code is a mixture of a natural language and programming language like constructs.
+Flowchart, a method of expressing an algorithm by a collection of connected geometric shapes containing descriptions of the algorithm’s steps.
+Considering a programming language for writing the program as a method of implementing the algorithm.
+7. Proving an Algorithm’s Correctness:
+Once an algorithm has been specified, you have to prove its correctness.
+Prove that the algorithm yields a required result for every legitimate input in a finite amount of time.
+Though the algorithm works as expected for few specific inputs, it doesn't prove its correctness. Hence, one instance of input should also be applied which fails the algorithm.
+8. Analyzing an Algorithm:
+Efficiency.
+Time efficiency, indicating how fast the algorithm runs.
+Space efficiency, indicating how much extra memory it uses.
+Simplicity.
+An algorithm should be precisely defined and investigated with expressions.
+Simpler algorithms are easier to understand and easier to program and usually contain fewer bugs.
+9. Coding an Algorithm:
+Most algorithms are ultimately implemented as computer programs.
+A working program provides an opportunity to allow an empirical analysis of the underlying algorithm based on the timing of program execution
+Program = Algorithms + Data.
+An algorithm is a part of the plan for the computer program. An algorithm is ‘an effective procedure for solving a problem in a finite number of steps’. It is effective, which means that an answer is found and it has a finite number of steps. A well- designed algorithm is also guaranteed to terminate.
+An Algorithm is independent of the programming language. An Algorithm is the core logic to solve a given problem.
+Algorithm can be defined as “a sequence of steps to be performed for getting the desired output for a given input.”
+The sequence of steps of an algorithm can be stated in human readable English statements or pseudocode (meaning - a notation resembling a simplified programming language).
+There may be more than one way to solve a problem, hence there may be more than one algorithms for a given problem.
+Before attempting to write an algorithm, one should find out what the expected inputs and outputs are for the given problem.
+The properties of an algorithm are:
+Input: Algorithm should be accepting 0 or more inputs supplied externally.
+Output: Algorithm should be generating at least one output.
+Definiteness: Each step of an algorithm must be precisely defined. Meaning the step should perform a clearly defined task without much complication.
+Finiteness: An algorithm must always terminate after a finite number of steps.
+Effectiveness: The efficiency of the steps and the accuracy of the output determine the effectiveness of the algorithm.
+Correctness: Each step of the algorithm must generate a correct output.
